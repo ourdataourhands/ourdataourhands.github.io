@@ -1,5 +1,4 @@
 # General Jekyll Config
-highlighter: pygments
 url: https://ourdataourhands.org
 lsi: false
 exclude: [LICENSE, CNAME, README.md, .gitignore, Gemfile, Gemfile.lock]

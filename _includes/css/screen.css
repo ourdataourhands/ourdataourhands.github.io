@@ -17,7 +17,7 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  color: #1c557f;
+  color: #1c557f; /*Light blue: 88cbfa;*/
   font-family: "Helvetica Neue", sans-serif;
 }
 
@@ -43,7 +43,10 @@ h2 {
 h3 {
   font-size: 21px;
   line-height: 24px;
-  margin: 1em 0;
+  margin: 1em 0 0 0;
+}
+h5 {
+  margin-bottom: 0.5em;
 }
 
 ul {
@@ -271,4 +274,16 @@ i.fa-hn {
 sup {
   vertical-align: super;
   font-size: smaller;
+}
+
+.hilite {
+  background-color: #1c557f;
+  color: #ffffff;
+  padding: 4px;
+  border-radius: 3px; 
+  font-weight: bold;
+}
+
+.row h2, .row h5 {
+  text-align: center;
 }
