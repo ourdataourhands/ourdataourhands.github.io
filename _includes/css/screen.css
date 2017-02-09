@@ -127,6 +127,9 @@ nav h1, nav h2 {
   margin-bottom: 10px;
   font-size: 13px;
   text-align: center;
+  border: dotted #ddd;
+  border-width: 1px 0 0 0;
+  padding-top: 20px;
 }
 
 #post pre {
@@ -286,4 +289,8 @@ sup {
 
 .row h2, .row h5 {
   text-align: center;
+}
+
+a .fa:hover {
+  color: #88cbfa;
 }
