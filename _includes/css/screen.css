@@ -282,7 +282,7 @@ sup {
 .hilite {
   background-color: #1c557f;
   color: #ffffff;
-  padding: 4px;
+  padding: 4px 4px 3px 4px;
   border-radius: 3px; 
   font-weight: bold;
 }
@@ -291,6 +291,26 @@ sup {
   text-align: center;
 }
 
+.row h5 {
+  font-weight: bold;
+}
+
 a .fa:hover {
   color: #88cbfa;
+}
+
+a {
+  text-decoration: underline;
+}
+a:hover {
+  color: #88cbfa;  
+}
+
+p, li {
+  color: #555;
+}
+
+#mc_embed_signup h4, 
+#mc_embed_signup label {
+  text-align: center;
 }
