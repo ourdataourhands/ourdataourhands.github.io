@@ -1,4 +1,4 @@
 # General Jekyll Config
-url: https://ourdataourhands.org
+# url: https://ourdataourhands.org
 lsi: false
 exclude: [LICENSE, CNAME, README.md, .gitignore, Gemfile, Gemfile.lock]
