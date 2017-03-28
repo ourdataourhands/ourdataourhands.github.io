@@ -2,58 +2,49 @@
   <h1><a href="/">Our Data Our Hands</a></h1>
   <a href="/">
     {% if site.data.theme.social.gravatar %}
-    <img src="http://www.gravatar.com/avatar/{{ site.data.theme.social.gravatar }}?s=200" id="gravatar" alt="My photo"/>
+      <img src="http://www.gravatar.com/avatar/{{ site.data.theme.social.gravatar }}?s=200" id="gravatar" alt="My photo"/>
     {% else %}
-    <img src="/logo.png" id="logo" alt="Blog logo"/>
+      <img src="/logo.png" id="logo" alt="Blog logo"/>
     {% endif %}
   </a>
-
   <div id="bio">
     <p>A massive storage grid to safeguard humanity&rsquo;s data.</p>
     <p>Currently shielding <span class="hilite">12TB</span></p>
     <p><a href="https://data.ourdataourhands.org/">data.ourdataourhands.org</a></p>
+    <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+      <input type="hidden" name="cmd" value="_s-xclick">
+      <input type="hidden" name="encrypted" value="-----BEGIN PKCS7-----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-----END PKCS7-----
+      ">
+      <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+      <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+    </form>
   </div>
-
-
-<form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
-<input type="hidden" name="cmd" value="_s-xclick">
-<input type="hidden" name="encrypted" value="-----BEGIN PKCS7-----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-----END PKCS7-----
-">
-<input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
-<img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
-</form>
-
-
-<!--   <h4><i class="fa fa-bookmark"></i> Recent posts</h4>
+  <!--   <h4><i class="fa fa-bookmark"></i> Recent posts</h4>
   <ul id="blog-posts" class="posts">
     {% for post in site.posts %}
       <li><span>{{ post.date | date_to_string }} &raquo;</span><a href="{{ post.url }}">{{ post.title }}</a></li>
     {% endfor %}
   </ul> -->
-
-<!-- Begin MailChimp Signup Form -->
-<div id="mc_embed_signup">
-<form action="//ourdataourhands.us15.list-manage.com/subscribe/post?u=e99e0d98bc54d27cbede9ccab&amp;id=0b963561ba" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
-    <div id="mc_embed_signup_scroll">
-  <h4>Rise up! Join our list!</h4>
-<div class="mc-field-group">
-  <label for="mce-EMAIL">Email Address </label>
-  <input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL">
-</div>
-  <div id="mce-responses" class="clear">
-    <div class="response" id="mce-error-response" style="display:none"></div>
-    <div class="response" id="mce-success-response" style="display:none"></div>
-  </div>    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
-    <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_e99e0d98bc54d27cbede9ccab_0b963561ba" tabindex="-1" value=""></div>
+  <!-- Begin MailChimp Signup Form -->
+  <div id="mc_embed_signup">
+    <form action="//ourdataourhands.us15.list-manage.com/subscribe/post?u=e99e0d98bc54d27cbede9ccab&amp;id=0b963561ba" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+      <div id="mc_embed_signup_scroll">
+        <h4>Rise up! Join our list!</h4>
+        <div class="mc-field-group">
+          <label for="mce-EMAIL">Email Address </label>
+          <input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL">
+        </div>
+        <div id="mce-responses" class="clear">
+          <div class="response" id="mce-error-response" style="display:none"></div>
+          <div class="response" id="mce-success-response" style="display:none"></div>
+          </div>    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+          <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_e99e0d98bc54d27cbede9ccab_0b963561ba" tabindex="-1" value=""></div>
+        </div>
+        <input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button">
+      </form>
     </div>
-    <input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button">
-</form>
-</div>
-
-<!--End mc_embed_signup-->
-
-
-  <div id="social">
-    {% include social.html %}
-  </div>
-</nav>
+    <!--End mc_embed_signup-->
+    <div id="social">
+      {% include social.html %}
+    </div>
+  </nav>
