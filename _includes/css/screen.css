@@ -61,7 +61,7 @@ a {
 
 a:hover {
   color: {{ site.data.theme.highlight_color }};
-  text-decoration: underline;
+  text-decoration: none;
 }
 
 a:visited {
@@ -300,7 +300,7 @@ a .fa:hover {
 }
 
 a {
-  text-decoration: underline;
+  text-decoration: none;
 }
 a:hover {
   color: #88cbfa;  
